@@ -1,0 +1,47 @@
+*{
+
+}
+ul{
+    background-color: rgba(252, 154, 255, 0.945);
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+    color: #002e74;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: tomato;
+    padding: 7px 0px;
+}
+
+li{
+    list-style:none;
+    padding: 6px 20px;
+}
+.button{
+    background-color: rgb(98, 211, 117);
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    margin:auto
+}
+
+input{
+    margin-top: 4px;
+}

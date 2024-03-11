@@ -1,0 +1,152 @@
+header{
+    display: flex;
+    background-color: rgb(0, 63, 31);
+    align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+nav{
+    display: flex;
+    /* background-color: rgb(226, 93, 138); */
+    width: 85%;
+ margin: auto;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+   
+   
+}
+.text-h1{
+color: aliceblue;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li{
+    margin-right: 1.85rem;
+   
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo img{
+   
+   margin-right: 0.5rem;
+}
+/* responsive navbar */
+@media only screen and (max-width: 480px) {
+    nav{
+       flex-direction: column;
+      align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+    text-align: center;
+}
+
+}
+
+
+
+/* mypet content */
+.mypet-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    box-shadow: 0px 0px 3px 3px rgb(62, 90, 62);
+/* background-color: #ffffff;    */
+margin: 30px 10px;
+
+border-radius: 10px;
+}
+.image{
+width: 100%;
+border-radius:10px 10px 0px 0px ;
+}
+
+.text-content{
+    padding: 15px;
+}
+/* social */
+.boxs{
+   
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: rgb(173, 255, 201);
+ 
+  height: 250pX;
+  margin-top: 30px;
+  text-align: center;
+}
+.icon{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+
+
+
+
+/* responsive mypet */
+@media only screen and (max-width: 768px) {
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+/* hero section */
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url('https://cdni-hw.bugaboo.tv/dm/sz-md/i/images/2023/12/14/_2023_12_14t100431256_1702523081_9056.jpg');
+   
+   height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-hero{
+    margin: 0;
+    color: aliceblue;
+  font-size: 60px;
+}
+
+
+/* footer */
+footer{
+    background-color: rgb(0, 63, 31);
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+}
