@@ -85,7 +85,7 @@ p {
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #019dc4; 
+	color: #0098be; 
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -94,9 +94,7 @@ p {
 	transition: all .3s ease-in;
 }
 
-#contactDetails ul li a:hover { 
-	color: #0096aa;
-}
+
 
 
 section {
@@ -149,66 +147,4 @@ section:last-child {
 	margin-bottom: 20px;
 	font-size: 1em;
 	color: #444;
-}
-
-.keySkills ul li {
-	margin-bottom: 3px;
-}
-
-.instaFade {
-    -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-timing-function: ease-in;
-	
-	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 1.5s;
-    -moz-animation-timing-function: ease-in;
-	
-	animation-name: reset, fade-in;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in;
-}
-
-.quickFade {
-    -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 2.5s;
-    -webkit-animation-timing-function: ease-in;
-	
-	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 2.5s;
-    -moz-animation-timing-function: ease-in;
-	
-	animation-name: reset, fade-in;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-in;
-}
- 
-.delayOne {
-	-webkit-animation-delay: 0, .5s;
-	-moz-animation-delay: 0, .5s;
-	animation-delay: 0, .5s;
-}
-
-.delayTwo {
-	-webkit-animation-delay: 0, 1s;
-	-moz-animation-delay: 0, 1s;
-	animation-delay: 0, 1s;
-}
-
-.delayThree {
-	-webkit-animation-delay: 0, 1.5s;
-	-moz-animation-delay: 0, 1.5s;
-	animation-delay: 0, 1.5s;
-}
-
-.delayFour {
-	-webkit-animation-delay: 0, 2s;
-	-moz-animation-delay: 0, 2s;
-	animation-delay: 0, 2s;
-}
-
-.delayFive {
-	-webkit-animation-delay: 0, 2.5s;
-	-moz-animation-delay: 0, 2.5s;
-	animation-delay: 0, 2.5s;
 }
